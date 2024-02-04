@@ -1,0 +1,10 @@
+to see open ports :
+
+sudo netstat -tulpn | grep LISTEN
+
+to open port No---UFW (Uncomplicated Firewall) -install---status--enable--then
+$ sudo ufw allow (port)/tcp
+
+What is difference between awk and cut?
+cut accepts a single-character delimiter, and is suitable only for very simple text file formats. 
+Awk is much more versatile, and can handle somewhat more complex field delimiter definitions and even (in some dialects) a regular expression
